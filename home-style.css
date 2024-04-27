@@ -1,0 +1,33 @@
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 84vh;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+.first .leftsection {
+    font-size: 3rem;
+    width: 50%;
+}
+
+.leftsection :nth-child(2) {
+    font-size: 4rem;
+}
+
+.leftsection :nth-child(3) {
+    font-size: 4rem;
+}
+
+.rightsection img {
+    width: 50rem;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: green;
+}
