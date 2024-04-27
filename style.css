@@ -48,6 +48,11 @@ nav ul li a:hover {
     color: rgb(85, 85, 255)
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
 .left {
     font-size: 3rem;
     font-weight: 400;
