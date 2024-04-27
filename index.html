@@ -4,96 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>- portfolio</title>
+    <title>Jaideep - Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: rgb(25, 4, 79);
-            color: rgb(255, 255, 255);
-            font-family: "Sedan", serif;
-
-        }
-        nav{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 100px;
-            background-color:rgb(0, 2, 114);
-
-        }
-        nav ul{
-            display: flex;
-            justify-content: center;
-        }
-        nav ul li {
-            list-style: none;
-            margin: 0 20px;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: aliceblue;
-        }
-        nav ul li a:hover{
-           
-            color: rgb(2, 2, 49)
-        }
-        .left {
-            font-size: 30px;
-            font-weight: bold;
-        }
-        .first{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 23px 0;
-           
-        }
-        .firstsection div{
-            width: 30%;
-
-        }
-        .leftsection{
-           
-            width: 30%;
-            font-size: 3rem;
-            margin: 70px;
-        }
-        .rightsection img{
-            width: 500px; ;
-            
-        }
-        .purple
-        {
-            color: blueviolet;
-        }
-       
-        #element{
-            color:green;
-        }
-
-
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home-style.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="left">JAIDEEP's PORTFOLIO</div>
+            <div class="left"><a href="index.html">JAIDEEP's PORTFOLIO</a></div>
             <div class="right">
                 <ul>
-                    <li><a href="./certifications.html">certifications </a></li>
-                    <li><a href="/">projects</a></li>
-                    <li><a href="/">contact </a></li>
-                    <li><a href="/">resume </a></li>
-                    <li></li>
+                    <li><a href="certifications.html">certifications</a></li>
+                    <li><a href="#">projects</a></li>
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">resume</a></li>
                 </ul>
             </div>
         </nav>
@@ -101,23 +29,24 @@
     <main>
         <section class="first">
             <div class="leftsection">
-                Hello everyone!! my name is <span class="purple">JAIDEEP</span> and i am a 
+                <div>Hello everyone!!</div>
+                <div>My name is <span class="purple">JAIDEEP</span> and I am a</div>
                 <span id="element"></span>
             </div>
             <div class="rightsection">
-                <img src="pic3.webp" alt="">
+                <img src="web-development-illustration.webp" alt="Web-Dev">
             </div>
 
         </section>
     </main>
-    
+
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Data scientist ', 'Cyber security analyst','Ethical hacker'],
-          typeSpeed: 50,
+            strings: ['Data scientist ', 'Cyber security analyst', 'Ethical hacker', 'Web developer'],
+            typeSpeed: 50, loop: true
         });
-      </script>
+    </script>
 
 </body>
 

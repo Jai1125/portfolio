@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(25, 4, 79);
+    color: rgb(255, 255, 255);
+    font-family: "Sedan", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: sticky;
+    height: 10rem;
+    background-color: rgb(0, 2, 114);
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: rgb(85, 85, 255)
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.left {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.right {
+    font-size: 1.8rem;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-family: "Public Sans", sans-serif;
+
+}
+
+/* Scrollbar styles */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #ffffff;}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #929292;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #ccc;
+}
